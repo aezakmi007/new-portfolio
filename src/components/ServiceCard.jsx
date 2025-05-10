@@ -1,6 +1,8 @@
 import React from "react";
 
-const ServiceCard = () => {
+const ServiceCard = ({
+  count, text
+}) => {
   return <div>ServiceCard</div>;
 };
 
