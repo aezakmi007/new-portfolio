@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { about, Leaf1, Leaf2 } from "../assets";
+import { aboutnew, Leaf1, Leaf2 } from "../assets";
 
 const About = () => {
   return (
@@ -29,7 +29,7 @@ const About = () => {
         <div className="w-full flex items-center justify-center px-8">
           <div className="w-full lg:w-96 md:w-50 sm:w-auto p-[2px] rounded-md bg-gradient-to-br from-primary to-secondary relative">
             <img
-              src={about}
+              src={aboutnew}
               alt="about"
               className="w-full h-auto rounded-md object-contain"
             />
@@ -38,33 +38,9 @@ const About = () => {
 
           
         </div>
-        <div className="w-full ps-8 flex flex-col gap-4 items-start justify-start">
-            <p className="text-texlight text-base tracking-wide text-justify">
-              loren ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              convallis libero in dui sodales, sit amet tincidunt odio
-              condimentum. Integer nec mi ut nisi lacinia tempus. Ut
-              sollicitudin, nisl nec vestibulum lacinia, est libero condimentum
-              odio, a ultricies nisi sapien sit amet tortor. Curabitur eget
-              metus nec nunc ultricies lacinia. Nullam consectetur, ligula nec
-              ultricies tincidunt, metus elit
-            </p>
-            <p className="text-texlight text-base tracking-wide text-justify">
-              loren ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              convallis libero in dui sodales, sit amet tincidunt odio
-              condimentum. Integer nec mi ut nisi lacinia tempus. Ut
-              sollicitudin, nisl nec vestibulum lacinia, est libero condimentum
-              odio, a ultricies nisi sapien sit amet tortor. Curabitur eget
-              metus nec nunc ultricies lacinia. Nullam consectetur, ligula nec
-              ultricies tincidunt, metus elit
-            </p>
-            <p className="text-texlight text-base tracking-wide text-justify">
-              loren ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              convallis libero in dui sodales, sit amet tincidunt odio
-              condimentum. Integer nec mi ut nisi lacinia tempus. Ut
-              sollicitudin, nisl nec vestibulum lacinia, est libero condimentum
-              odio, a ultricies nisi sapien sit amet tortor. Curabitur eget
-              metus nec nunc ultricies lacinia. Nullam consectetur, ligula nec
-              ultricies tincidunt, metus elit
+        <div className="w-full flex flex-col gap-4 items-start justify-start">
+            <p className="text-texlight text-base tracking-wide text-justify leading-loose">
+            Abdullah Farhan Safwi is a skilled and versatile Software Engineer based in Bengaluru, with a strong foundation in full-stack development, DevOps, and cloud technologies. Currently working at Maersk, he has experience in building AI-powered tools, automating operational workflows, and enhancing system reliability through robust backend and infrastructure solutions. His technical expertise spans across JavaScript, React, Golang, Java, Python, and tools like Docker, Kubernetes, Terraform, and Azure. Abdullah holds a B.Tech from Integral University with a GPA of 9.0 and has also developed personal projects like a real-time chat application. He is passionate about solving complex problems and continuously improving system performance and developer productivity.
             </p>
           </div>
       </div>

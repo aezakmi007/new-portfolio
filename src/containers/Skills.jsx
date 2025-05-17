@@ -30,53 +30,100 @@ const Skills = () => {
             <p className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
               My Skills & Work Experience
             </p>
-
-            <p className="text-texlight text-base tracking-wide text-justify">
-              loren ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              convallis libero in dui sodales, sit amet tincidunt odio
-              condimentum. Integer nec mi ut nisi lacinia tempus. Ut
-              sollicitudin, nisl nec vestibulum lacinia, est libero condimentum
-              odio, a ultricies nisi sapien sit amet tortor. Curabitur eget
-              metus nec nunc ultricies lacinia. Nullam consectetur, ligula nec
-              ultricies tincidunt, metus elit
-            </p>
-            <p className="text-texlight text-base tracking-wide text-justify">
-              loren ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              convallis libero in dui sodales, sit amet tincidunt odio
-              condimentum. Integer nec mi ut nisi lacinia tempus. Ut
-              sollicitudin, nisl nec vestibulum lacinia, est libero condimentum
-              odio, a ultricies nisi sapien sit amet tortor. Curabitur eget
-              metus nec nunc ultricies lacinia. Nullam consectetur, ligula nec
-              ultricies tincidunt, metus elit
-            </p>
-            <p className="text-texlight text-base tracking-wide text-justify">
-              loren ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              convallis libero in dui sodales, sit amet tincidunt odio
-              condimentum. Integer nec mi ut nisi lacinia tempus. Ut
-              sollicitudin, nisl nec vestibulum lacinia, est libero condimentum
-              odio, a ultricies nisi sapien sit amet tortor. Curabitur eget
-              metus nec nunc ultricies lacinia. Nullam consectetur, ligula nec
-              ultricies tincidunt, metus elit
-            </p>
+             {" "}
+            <ul className="text-texlight list-disc">
+                 {" "}
+              <li>
+                Over 3 years of experience at Maersk, progressing from SRE
+                Intern to Software Engineer.
+              </li>
+                 {" "}
+              <li>
+                Developed an AI-powered tool that automated incident reporting,
+                reducing resolution delays by 80%.
+              </li>
+                 {" "}
+              <li>
+                Improved system reliability by integrating performance metrics
+                and centralized logging into monitoring tools.
+              </li>
+                 {" "}
+              <li>
+                Automated operational workflows, saving over 2000 hours annually
+                using React, Ansible, and Golang.
+              </li>
+                 {" "}
+              <li>
+                Built portals for incident analysis and SRE product management
+                using React, Java Spring Boot, and Azure.
+              </li>
+                 {" "}
+              <li>
+                Implemented real-time alerting systems using Azure Metrics for
+                proactive issue detection.
+              </li>
+                 {" "}
+              <li>
+                Created efficient APIs and batch jobs in Golang for database
+                diagnostics and certificate monitoring.
+              </li>
+                 {" "}
+              <li>
+                Hands-on experience with technologies like React, JavaScript,
+                Golang, Java, Python, Azure, Kubernetes, Terraform, and CI/CD
+                tools.
+              </li>
+               {" "}
+            </ul>
+            {/* <p className="text-texlight text-base tracking-wide text-justify">
+            Abdullah Farhan Safwi has over three years of experience at Maersk, progressing from an SRE Intern to a Software Engineer. He has consistently contributed to building automation tools, enhancing system reliability, and integrating AI-driven solutions. His work has led to significant operational efficiencies, such as saving thousands of manual hours and improving incident response times. Abdullah has hands-on experience with modern tech stacks including React, Golang, Java, Python, Azure, Kubernetes, and Terraform, and has worked extensively on both frontend and backend systems, as well as DevOps and cloud infrastructure.
+            </p> */}
           </div>
         </div>
 
-
         <div className="w-full flex flex-col gap-2 items-center justify-center px-8">
-            <SkillCard skill={"HTML 5"} percentage={"95%"} color={"#FF3F3F"} move={true}/>
+          <SkillCard
+            skill={"MERN Stack"}
+            percentage={"95%"}
+            color={"#FF3F3F"}
+            move={true}
+          />
 
-            <SkillCard skill={"CSS 3"} percentage={"75%"} color={"#008FFF"} move={false} />
-            
-            <SkillCard skill={"Javascript"} percentage={"85%"} color={"#FFB900"} move={true} />
+          <SkillCard
+            skill={"CI/CD & DevOps"}
+            percentage={"75%"}
+            color={"#008FFF"}
+            move={false}
+          />
 
-            <SkillCard skill={"Node Js"} percentage={"85%"} color={"#14DB00"} move={false} />
+          <SkillCard
+            skill={"Javascript"}
+            percentage={"85%"}
+            color={"#FFB900"}
+            move={true}
+          />
 
-            <SkillCard skill={"React & NextJs"} percentage={"90%"} color={"#00FFF3"} move={true} />
+          <SkillCard
+            skill={"Java"}
+            percentage={"85%"}
+            color={"#14DB00"}
+            move={false}
+          />
 
-           
+          <SkillCard
+            skill={"Golang"}
+            percentage={"90%"}
+            color={"#00FFF3"}
+            move={true}
+          />
 
-            <SkillCard skill={"Mongo DB & Firebase"} percentage={"75%"} color={"#FFE400"} move={false} />
-          </div>
+          <SkillCard
+            skill={"Postgres"}
+            percentage={"75%"}
+            color={"#FFE400"}
+            move={false}
+          />
+        </div>
       </div>
     </section>
   );
